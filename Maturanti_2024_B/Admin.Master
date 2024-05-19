@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Maturanti_2024_B.Admin" %>
+
+<!DOCTYPE html>
+ <link rel="stylesheet" href="mojCSS_B.css">
+<html>
+<head runat="server">
+    <title></title>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+      <div class="div_100" >
+
+         <div class="div_Left">&nbsp;<p>
+             &nbsp;</p>
+             </div>
+        <div class="div_Right">
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+      </div>
+    </form>
+</body>
+</html>

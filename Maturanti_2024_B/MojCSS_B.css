@@ -1,0 +1,18 @@
+﻿
+.div_100 {
+    width: 100%;
+}
+
+.div_Left {
+    width: 20%;
+    float: left;
+    
+}
+
+.div_Right {
+    font-style:italic;
+    width: 80%;
+    
+    float: left;
+}
+
